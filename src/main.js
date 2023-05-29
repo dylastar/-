@@ -6,7 +6,7 @@ import router from './router'
 //测试接口函数
 import { getCategoryAPI } from './apis/testApi'
 getCategoryAPI().then(res => {
-    console.log(res)
+    // console.log(res)
 })
 
 const app = createApp(App)
