@@ -9,7 +9,7 @@ import Layoutcontent from './components/Layoutcontent.vue'
 import {useCategoryStore} from '@/stores/Category'
 import { onMounted } from 'vue'
 const categoryStore =  useCategoryStore()
-onMounted( () => categoryStore.getCategory)
+onMounted( () => categoryStore.getCategory())
 </script>
 
 <template>
